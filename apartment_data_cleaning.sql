@@ -2,10 +2,10 @@
 -- Apartment Rent Analysis Data Cleaning
 -- -----------------------
 
+# apartment_vacancy
 # apartment_tom
-# apartment_rent_growth_mom
+# apartment_rent_estimates
 # apartment_rent_growth_yoy
-# apartment_vacancy_index
 
 
 -- **** View Raw Datasets
@@ -254,7 +254,8 @@ FROM apartment_vacancy_staging;
 -- DROP COLUMN location_fips_code;
 
 
-
+ALTER TABLE apartment_tom_staging
+RENAME COLUMN months_on_market TO days_on_market;
 
 
 
