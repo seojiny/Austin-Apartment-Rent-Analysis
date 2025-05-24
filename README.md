@@ -2,7 +2,7 @@
 Austin Apartment Rent Analysis of 2022 - 2024 using SQL and Tableau. 
 * Interactive Tableau dashboard found [here](https://public.tableau.com/app/profile/seojin.yoon/viz/AustinApartmentRentAnalysis2022-2024/AustinApartmentRentalTrendsDemandPatterns2022-2024?publish=yes)
 
-![alt text](austin-rent-dashboard.png)
+![Austin Rent Tableau Dashboard](austin-rent-dashboard.png)
 
 ## Metrics & Dimensions
 * **Location:** Austin,TX and United States
